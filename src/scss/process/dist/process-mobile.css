@@ -1,0 +1,43 @@
+@media screen and (max-width: 480px) {
+  .process-section {
+    margin-top: 20px;
+  }
+  .process-section .intro-block {
+    justify-content: center;
+  }
+  .process-section .intro-block .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .process-section .intro-block .title h2:nth-child(1) {
+    width: 310px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .process-section .intro-block .title h2:nth-child(2) {
+    position: relative;
+    width: 330px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .process-section .intro-block .title h2:nth-child(2)::after {
+    display: none;
+  }
+  .process-section .intro-block p {
+    display: none;
+  }
+  .process-section .cards-block {
+    display: none;
+  }
+}

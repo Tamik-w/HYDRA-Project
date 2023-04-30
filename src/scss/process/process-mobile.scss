@@ -1,0 +1,44 @@
+@media screen and (max-width: 480px) {
+    .process-section {
+        margin-top: 20px;
+            .intro-block {
+                justify-content: center;
+                .title {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    position: relative;
+                    h2:nth-child(1) {
+                        width: 310px;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 44px;
+                        color: #FFFFFF;
+                        text-align: center;
+                    }
+                    h2:nth-child(2) {
+                        position: relative;
+                        width: 330px;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 36px;
+                        line-height: 44px;
+                        color: #FFFFFF;
+                        text-align: center;
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+                p {
+                    display: none;
+                }
+            }
+        
+            .cards-block {
+                display: none;
+            }
+    }
+}

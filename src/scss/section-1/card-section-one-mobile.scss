@@ -1,0 +1,107 @@
+@media screen and (max-width: 480px) {
+    .cards-section-one {
+        display: none;
+    }
+
+    .swiper-container {
+        margin-top: 53px;
+        display: flex;
+        display: block;
+
+        .swiper {
+            .swiper-slide {  
+                position: relative;
+                width: 90%;
+                height: 109px;
+                background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+                box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+                border-radius: 90px;
+
+                .card {
+                    position: absolute;
+
+                    img {
+                        margin-right: 10px;
+                        position: relative;
+                        width: 70px;
+                        height: 70px;
+                        top: 20px;
+                        left: 35px;
+                    }
+                    .text-container {
+                        position: relative;
+                        top: 20px;
+                        left: 25px;
+                        cursor: pointer;
+                        transition: 0.3s;
+                        h3 {
+                            display: none;
+                        }
+                        p {
+                            width: 195px;
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 17px;
+                            color: #FFFFFF;
+                        }
+                    }
+            
+                    &:hover {
+                        animation: shadow 2s ease-in-out infinite alternate;
+                    }
+                    
+                    @keyframes shadow {
+                        from {
+                          text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+                        }
+                        to {
+                          text-shadow: 0 0 15px #fff 0 0 25px #fff;
+                        }
+                    }
+            
+                }
+                .card-2 {
+                    position: relative;
+                    img {
+                        position: relative;
+                        left: 30%;
+                    }
+                    .text-container {
+                        margin-left: 70px;
+                    }
+                }
+                .card-3 {
+                    img {
+                        position: relative;
+                        left: 40px;
+                    }
+                    .text-container {
+                        position: relative;
+                        margin-left: 10px;
+                    }
+                }
+            }
+            .swiper-button-prev {
+                position: absolute;
+                top: 28%;
+                background-image: url('../../vectors/chevron-circle-left.svg');
+                &::after {
+                    content: "";
+                    display: none;
+                }
+            }
+            .swiper-button-next {
+                position: absolute;
+                top: 28%;
+                background-image: url('../../vectors/chevron-circle-right.svg');
+                &::after {
+                    content: "";
+                    display: none;
+                }
+            }
+        }
+    }
+
+}

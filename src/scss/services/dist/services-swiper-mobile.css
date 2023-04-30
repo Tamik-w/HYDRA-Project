@@ -1,0 +1,111 @@
+@media screen and (max-width: 480px) {
+  .services-section {
+    display: none;
+  }
+
+  .swiper-container2 {
+    position: relative;
+  }
+  .swiper-container2 .swiper-slide {
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .swiper-container2 .swiper-slide .card {
+    flex-direction: column;
+    transition: 0.3s;
+    width: 310px;
+    height: 510px;
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+    border-radius: 40px;
+  }
+  .swiper-container2 .swiper-slide .card:hover {
+    box-shadow: inset white 0px 0px 9px 0px;
+  }
+  .swiper-container2 .swiper-slide .card img {
+    margin-top: 37px;
+    width: 190.92px;
+    border-radius: 50%;
+    border: 10px solid rgba(0, 0, 0, 0.3);
+  }
+  .swiper-container2 .swiper-slide .card h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+  }
+  .swiper-container2 .swiper-slide .card .line {
+    width: 154px;
+    height: 1px;
+    background-color: #C0B7E8;
+  }
+  .swiper-container2 .swiper-slide .card p {
+    width: 250px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+  }
+  .swiper-container2 .swiper-slide .card button {
+    margin-bottom: 40px;
+    font-size: 12px;
+    color: #343045;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border: none;
+    font-weight: bold;
+    width: 154px;
+    height: 48px;
+    border-radius: 40px;
+    transition: 0.3s;
+  }
+  .swiper-container2 .swiper-slide .card button:hover {
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+  }
+  .swiper-container2 .arrows {
+    display: flex;
+    justify-content: space-between;
+  }
+  .swiper-container2 .arrows .swiper-button-prev2 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 100;
+    left: 0px;
+    bottom: 250px;
+    background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 7px rgba(14, 14, 14, 0.32);
+    transition: 0.2s;
+  }
+  .swiper-container2 .arrows .swiper-button-prev2::after {
+    content: "";
+    display: none;
+  }
+  .swiper-container2 .arrows .swiper-button-prev2:active {
+    box-shadow: 0px 0px 0px 5px rgba(14, 14, 14, 0.32);
+  }
+  .swiper-container2 .arrows .swiper-button-next2 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 100;
+    right: 0px;
+    bottom: 250px;
+    background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 7px rgba(14, 14, 14, 0.32);
+    transition: 0.2s;
+  }
+  .swiper-container2 .arrows .swiper-button-next2::after {
+    content: "";
+    display: none;
+  }
+  .swiper-container2 .arrows .swiper-button-next2:active {
+    box-shadow: 0px 0px 0px 5px rgba(14, 14, 14, 0.32);
+  }
+}

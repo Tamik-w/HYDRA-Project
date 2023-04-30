@@ -1,0 +1,326 @@
+@media screen and (max-width: 480px) {
+  .form-section {
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 80px;
+    width: 88%;
+    height: 973px;
+    position: relative;
+    background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-section h2:nth-child(1) {
+    margin-top: 45px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .form-section img {
+    margin-top: 30px;
+    max-width: 116.5px;
+  }
+  .form-section h2:nth-child(3) {
+    width: 190px;
+    margin-top: 21px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .form-section .form-block {
+    margin: 0 auto;
+    font-family: "Montserrat";
+    margin-top: 36px;
+    width: 88%;
+  }
+  .form-section .form-block .name {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-section .form-block .name #first_name {
+    font-family: "Montserrat";
+    caret-color: #FFFFFF;
+    width: 100%;
+    height: 53px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    margin-right: 0px;
+    background-color: transparent;
+    padding-left: 20px;
+    color: #fff;
+    transition: 0.3s;
+    position: relative;
+  }
+  .form-section .form-block .name #first_name::placeholder {
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+  .form-section .form-block .name #first_name:focus {
+    padding-left: 20px;
+    outline: none;
+    animation: shadowInput 1s ease-in-out infinite alternate;
+    color: #fff;
+    font-size: 16px;
+  }
+  .form-section .form-block .name #first_name:focus::placeholder {
+    color: transparent;
+  }
+  @keyframes shadowInput {
+    from {
+      box-shadow: 0 0 0px #fff;
+    }
+    to {
+      box-shadow: 0 0 10px #fff;
+    }
+  }
+  .form-section .form-block .name #last_name {
+    margin-top: 22px;
+    font-family: "Montserrat";
+    caret-color: #FFFFFF;
+    width: 100%;
+    height: 53px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    margin-left: 0px;
+    background-color: transparent;
+    padding-left: 20px;
+    color: #fff;
+    transition: 0.3s;
+  }
+  .form-section .form-block .name #last_name::placeholder {
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+  .form-section .form-block .name #last_name:focus {
+    padding-left: 20px;
+    outline: none;
+    animation: shadowInput 1s ease-in-out infinite alternate;
+    color: #fff;
+    font-size: 16px;
+  }
+  .form-section .form-block .name #last_name:focus::placeholder {
+    color: transparent;
+  }
+  @keyframes shadowInput {
+    from {
+      box-shadow: 0 0 0px #fff;
+    }
+    to {
+      box-shadow: 0 0 10px #fff;
+    }
+  }
+  .form-section .form-block .data {
+    margin-top: 22px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-section .form-block .data #email {
+    font-family: "Montserrat";
+    caret-color: #FFFFFF;
+    margin-right: 0px;
+    width: 100%;
+    height: 53px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    background-color: transparent;
+    padding-left: 20px;
+    color: #fff;
+    transition: 0.3s;
+  }
+  .form-section .form-block .data #email::placeholder {
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+  .form-section .form-block .data #email:focus {
+    padding-left: 20px;
+    outline: none;
+    animation: shadowInput 1s ease-in-out infinite alternate;
+    color: #fff;
+    font-size: 16px;
+  }
+  .form-section .form-block .data #email:focus::placeholder {
+    color: transparent;
+  }
+  @keyframes shadowInput {
+    from {
+      box-shadow: 0 0 0px #fff;
+    }
+    to {
+      box-shadow: 0 0 10px #fff;
+    }
+  }
+  .form-section .form-block .data #phone {
+    margin-top: 22px;
+    font-family: "Montserrat";
+    caret-color: #FFFFFF;
+    margin-left: 0px;
+    width: 100%;
+    height: 53px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    background-color: transparent;
+    padding-left: 20px;
+    color: #fff;
+    transition: 0.3s;
+  }
+  .form-section .form-block .data #phone::placeholder {
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+  .form-section .form-block .data #phone:focus {
+    padding-left: 20px;
+    outline: none;
+    animation: shadowInput 1s ease-in-out infinite alternate;
+    color: #fff;
+    font-size: 16px;
+  }
+  .form-section .form-block .data #phone:focus::placeholder {
+    color: transparent;
+  }
+  @keyframes shadowInput {
+    from {
+      box-shadow: 0 0 0px #fff;
+    }
+    to {
+      box-shadow: 0 0 10px #fff;
+    }
+  }
+  .form-section .form-block #subject {
+    margin-top: 22px;
+    font-family: "Montserrat";
+    caret-color: #FFFFFF;
+    width: 100%;
+    height: 53px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    background-color: transparent;
+    padding-left: 20px;
+    color: #fff;
+    transition: 0.3s;
+  }
+  .form-section .form-block #subject::placeholder {
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+  .form-section .form-block #subject:focus {
+    padding-left: 20px;
+    outline: none;
+    animation: shadowInput 1s ease-in-out infinite alternate;
+    color: #fff;
+    font-size: 16px;
+  }
+  .form-section .form-block #subject:focus::placeholder {
+    color: transparent;
+  }
+  @keyframes shadowInput {
+    from {
+      box-shadow: 0 0 0px #fff;
+    }
+    to {
+      box-shadow: 0 0 10px #fff;
+    }
+  }
+  .form-section .form-block #message {
+    margin-top: 30px;
+    font-family: "Montserrat";
+    caret-color: #FFFFFF;
+    width: 100%;
+    height: 219px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    background-color: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    color: #fff;
+    transition: 0.3s;
+  }
+  .form-section .form-block #message::placeholder {
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+  .form-section .form-block #message:focus {
+    padding-top: 20px;
+    padding-left: 20px;
+    outline: none;
+    animation: shadowInput 1s ease-in-out infinite alternate;
+    color: #fff;
+    font-size: 16px;
+  }
+  .form-section .form-block #message:focus::placeholder {
+    color: transparent;
+  }
+  @keyframes shadowInput {
+    from {
+      box-shadow: 0 0 0px #fff;
+    }
+    to {
+      box-shadow: 0 0 10px #fff;
+    }
+  }
+  .form-section .form-block .btn {
+    display: flex;
+    justify-content: center;
+  }
+  .form-section .form-block .btn .form_btn {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #343045;
+    margin-top: 40px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border: none;
+    font-weight: bold;
+    width: 100%;
+    height: 48px;
+    border-radius: 40px;
+    transition: 0.3s;
+  }
+  .form-section .form-block .btn .form_btn:hover {
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+  }
+  .form-section .form-block textarea {
+    resize: none;
+    width: 100%;
+    height: 210px;
+    min-height: 210px;
+  }
+}
