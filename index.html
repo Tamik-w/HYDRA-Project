@@ -3,19 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/scss/dist/style.css">
     <script defer src="./src/js/dist/app.dev.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <title>HYDRA</title>
-
     <link rel="stylesheet" href="./src/scss/mobile/dist/mobile.css">
 </head>
 <body>
@@ -30,7 +28,7 @@
     <img src="./src/vectors/vector-18.svg" alt="Line" class="vector-18">
     <img src="./src/vectors/vector-19.svg" alt="Line" class="vector-19"> 
     <div class="container">
-        <header>
+        <header id="header">
             <div class="flex ">
                 <div class="logo-container flex">
                     <img src="./src/img/logo/Frame.svg" alt="Logo img">
@@ -39,16 +37,16 @@
                 <nav class="nav-container">
                     <ul class="flex">
                         <li>
-                            <a href="#">About</a>
+                            <a href="#about">About</a>
                         </li>
                         <li>
-                            <a href="#">Services</a>
+                            <a href="#services">Services</a>
                         </li>
                         <li>
-                            <a href="#">Technologies</a>
+                            <a href="#tech">Technologies</a>
                         </li>
                         <li>
-                            <a href="#">How to</a>
+                            <a href="#process">How to</a>
                         </li>
                         <div class="buttons-toggle">
                             <button class="btn1">Contact us</button>
@@ -166,7 +164,7 @@
               
               </div>
         </div>
-        <div class="about-section">
+        <div id="about" class="about-section">
             <div class="intro-block flex">
                 <div class="title">
                     <h2>INTRODUCTION</h2>
@@ -217,7 +215,7 @@
                 </p>
             </div>
         </div>
-        <div class="services-section flex">
+        <div id="services" class="services-section flex">
             <div class="card flex">
                 <img src="./src/img/box-1.svg" alt="">
                 <h2>SIMULATION</h2>
@@ -346,7 +344,7 @@
               
               </div>
         </div>
-        <div class="tech-section">
+        <div id="tech" class="tech-section">
             <div class="img-block">
                 <img class="main-img" src="./src/img/girl-2.svg" alt="">
                 <div class="main-img2"></div>
@@ -398,7 +396,7 @@
                 </div>
               </div>
         </div>
-        <div class="process-section">
+        <div id="process" class="process-section">
             <div class="intro-block flex">
                 <div class="title">
                     <h2>HOW WE BUILD</h2>
@@ -508,7 +506,7 @@
                 </div>
               </div>
         </div>
-        <div class="form-section">
+        <div id="form" class="form-section">
             <h2>JOIN HYDRA</h2>
             <img src="./src/vectors/line-short.svg" alt="">
             <h2>Let's Build Your VR Experience</h2>
@@ -546,11 +544,11 @@
                 </div>
                 <img src="./src/vectors/horizontal-line.svg" alt="">
                 <div class="anchors flex">
-                    <a href="">ABOUT</a>
-                    <a href="">SERVICES</a>
-                    <a href="">TECHNOLOGIES</a>
-                    <a href="">HOW TO</a>
-                    <a href="">JOIN HYDRA</a> 
+                    <a href="#about">ABOUT</a>
+                    <a href="#services">SERVICES</a>
+                    <a href="#tech">TECHNOLOGIES</a>
+                    <a href="#process">HOW TO</a>
+                    <a href="#form">JOIN HYDRA</a> 
                 </div>
                 <img src="./src/vectors/horizontal-line.svg" alt="">
                 <div class="faq flex">
@@ -563,22 +561,22 @@
                 <div class="media flex">
                     <h3>SOCIALIZE WITH HYDRA</h3>
                     <div class="media-links flex">
-                        <a href="">
+                        <a href="https://www.facebook.com/">
                             <img src="./src/img/icons/facebook.svg" alt="">
                         </a>
-                        <a href="">
+                        <a href="https://www.twitter.com/">
                             <img src="./src/img/icons/twitter.svg" alt="">
                         </a>
-                        <a href="">
+                        <a href="https://www.linkedin.com/">
                             <img src="./src/img/icons/linkedin.svg" alt="">
                         </a>
-                        <a href="">
+                        <a href="https://www.youtube.com/">
                             <img src="./src/img/icons/youtube.svg" alt="">
                         </a>
-                        <a href="">
+                        <a href="https://www.instagram.com/">
                             <img src="./src/img/icons/instagram.svg" alt="">
                         </a>
-                        <a href="">
+                        <a href="https://www.pinterest.com/">
                             <img src="./src/img/icons/pinterest.svg" alt="">
                         </a>
                     </div>

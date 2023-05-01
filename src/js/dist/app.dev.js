@@ -37,7 +37,8 @@ var swiper = new Swiper('.swiper', {
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev'
-  }
+  },
+  slidesPerView: 1
 });
 var swiper2 = new Swiper('.swiper2', {
   direction: 'horizontal',
@@ -46,7 +47,8 @@ var swiper2 = new Swiper('.swiper2', {
   navigation: {
     nextEl: '.swiper-button-next2',
     prevEl: '.swiper-button-prev2'
-  }
+  },
+  slidesPerView: 1
 });
 var swiper3 = new Swiper('.swiper3', {
   direction: 'horizontal',
@@ -55,7 +57,8 @@ var swiper3 = new Swiper('.swiper3', {
   navigation: {
     nextEl: '.swiper-button-next3',
     prevEl: '.swiper-button-prev3'
-  }
+  },
+  slidesPerView: 1
 });
 var swiper4 = new Swiper('.swiper4', {
   direction: 'horizontal',
@@ -64,5 +67,6 @@ var swiper4 = new Swiper('.swiper4', {
   navigation: {
     nextEl: '.swiper-button-next4',
     prevEl: '.swiper-button-prev4'
-  }
+  },
+  slidesPerView: 1
 });

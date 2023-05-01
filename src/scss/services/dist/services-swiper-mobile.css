@@ -4,6 +4,7 @@
   }
 
   .swiper-container2 {
+    max-width: 480px;
     position: relative;
   }
   .swiper-container2 .swiper-slide {

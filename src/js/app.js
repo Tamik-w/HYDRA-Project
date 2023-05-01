@@ -39,6 +39,7 @@ const swiper = new Swiper('.swiper', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+  slidesPerView: 1, 
 });
 
 const swiper2 = new Swiper('.swiper2', {
@@ -50,6 +51,7 @@ const swiper2 = new Swiper('.swiper2', {
     nextEl: '.swiper-button-next2',
     prevEl: '.swiper-button-prev2',
   },
+  slidesPerView: 1, 
 });
 
 const swiper3 = new Swiper('.swiper3', {
@@ -61,6 +63,7 @@ const swiper3 = new Swiper('.swiper3', {
     nextEl: '.swiper-button-next3',
     prevEl: '.swiper-button-prev3',
   },
+  slidesPerView: 1, 
 });
 
 const swiper4 = new Swiper('.swiper4', {
@@ -72,7 +75,5 @@ const swiper4 = new Swiper('.swiper4', {
     nextEl: '.swiper-button-next4',
     prevEl: '.swiper-button-prev4',
   },
+  slidesPerView: 1, 
 });
-
-
-
